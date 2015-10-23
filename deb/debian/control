@@ -178,15 +178,6 @@ Description: Network flow module for libsoletta.
  provides a flow node that outputs boolean packets after network
  connect/disconnect events occur.
 
-Package: libsoletta-flow-module-oic
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libsoletta
-Description: OIC flow module for libsoletta.
- This package contains the OIC flow module for libsoletta. The module
- provides server and client flow nodes for Open Interconnect Consortium
- "brightlight" class of devices.
-
 Package: libsoletta-flow-module-persistence
 Section: libs
 Architecture: any
