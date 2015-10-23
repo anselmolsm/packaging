@@ -7,8 +7,7 @@ export DH_VERBOSE=1
 	dh $@
 
 override_dh_auto_configure:
-	cp debian/config-linux-micro .config
-	make silentoldconfig
+	make alldefconfig
 
 override_dh_auto_test:
 	echo "Skip dh_auto_test"
